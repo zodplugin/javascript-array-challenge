@@ -7,11 +7,18 @@ function filterCarByAvailability(cars) {
 
     // Tulis code-mu disini
 
-    cars.forEach(car => {
-        if (car.available) {
-            result.push(car);
+
+    for (let i = 0; i < cars.length; i++) {
+        if (cars[i].available) {
+            result.push(cars[i]);
         }
-    });
+    }
+
+    // cars.forEach(car => {
+    //     if (car.available) {
+    //         result.push(car);
+    //     }
+    // });
 
 
     // Rubah code ini dengan array hasil filter berdasarkan availablity
