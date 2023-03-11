@@ -14,7 +14,7 @@ function sortCarByYearDescendingly(cars) {
             }
         }
 
-        // ga sesuai output tapi udah ascending
+        // ga sesuai output tapi udah descending
         // for (let j = i + 1; j < result.length; j++) {
         //     if (result[i].year < result[j].year) {
         //         let temp = result[i];
