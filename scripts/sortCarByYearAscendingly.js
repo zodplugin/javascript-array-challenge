@@ -7,7 +7,7 @@ function sortCarByYearAscendingly(cars) {
     const result = [...cars];
 
     // Tulis code-mu disini
-    // disini kita bisa mengurutkan sampai 18 loop untuk mengecek apakah tahun tersebut udah sesuai asc apa tidak
+
     for (let i = 0; i < result.length; i++) {
         for (let j = 0; j < result.length - i - 1; j++) {
             if (result[j].year > result[j + 1].year) {
